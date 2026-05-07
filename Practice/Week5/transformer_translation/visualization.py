@@ -6,6 +6,9 @@ from model import PositionalEncoding, subsequent_mask
 from test import run_model_example
 from train import LabelSmoothing
 
+# Annotated Transformer의 마지막 Part 내용, 변형된 부분은 주로 torchtext 제거로 인한 vocab 구축 방식 변경으로 인하여 
+# 과제에는 따로 활용하지 않음 -> Presentation에서 제외
+
 def loss(x, crit):
     d = x + 3 * 1
     predict = torch.FloatTensor([[0, x / d, 1 / d, 1 / d, 1 / d]])

@@ -6,7 +6,7 @@ import torch.nn as nn
 
 from model import subsequent_mask
 
-# Dummy는 Evaluation 중 사용
+# Dummy는 Evaluation 과정 중 사용
 
 class DummyOptimizer(torch.optim.Optimizer):
     def __init__(self):

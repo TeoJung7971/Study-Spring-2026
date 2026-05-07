@@ -235,7 +235,7 @@ class MultiHeadedAttention(nn.Module):
     """
     추가: Annotated Transformer
 
-    여러 attention head를 병렬로 계산한 뒤 하나의 hidden representation으로 결합한다.
+    여러 attention head를 병렬로 계산한 뒤, 하나의 hidden representation으로 결합한다.
 
     - h: number of attention heads
     - d_model: hidden dimension
