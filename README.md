@@ -17,28 +17,35 @@ Repository for Studying CS231n(Stanford, 2025), CS224n(Stanford, 2024) and Pract
 
 ## Schedule
 
-- April 2026 Week 1:
+- (1) April 2026 Week 1:
   - CS231n Lecture 1~5
   - PyTorch Basic Practice(w/ MNIST & CIFAR-10 Dataset, Torchvision Library)
     - Over 80% Accuracy with ResNet18
-- April 2026 Week 2:
+- (2) April 2026 Week 2:
   - CS231n Lecture 6, 9, 12
   - CS224n Lecture 1~5
   - PyTorch Basic Practice(w/ CIFAR-10 Dataset, Torchvision Library)
     - Over 85% Accuracy with ResNet18
     - Augmentation, Gradient-Clipping, Scheduler
     - Ablation Study => Over 90% Accuracy
-- April 2026 Week 3:
+- (3) April 2026 Week 3:
   - CS224n Lecture 6~11
   - Pytorch Practice(w/ IMDB Dataset)
     - Sentiment Classification Task
     - Over 80% Accuracy with LSTM, Transformer, BERT
-- April 2026 Week 4:
-  - CS224n Lecture 10~12
+- (4) April 2026 Week 4:
+  - CS224n Lecture 10~11
   - Pytorch Practice
     - Transformer Paper Review(Attention is All You Need)
-    - Transformer Implementation w/ PyTorch
+- (5) May 2026 Week 1:
+  - CS224n Lecture 12~13
+  - Pytorch Practice
+    - Transformer Implementation 
     - Transformer Code Review
     - Reference:
       - https://nlp.seas.harvard.edu/annotated-transformer/
       - https://huggingface.co/datasets/bird-of-paradise/transformer-from-scratch-tutorial/blob/main/Transformer_Implementation_Tutorial.ipynb
+- (6) April 2026 Week 2:
+  - CS224n Lecture 14~16
+  - Pytorch Practice
+    - P-Transformer Implementation
